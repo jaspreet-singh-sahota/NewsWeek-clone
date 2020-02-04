@@ -1,0 +1,22 @@
+.navbar {
+    white-space: nowrap;
+}
+
+.ul-nav {
+    flex-wrap: nowrap;
+    font-size: 21px;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.search-input{
+    border-color: transparent;
+    width: 90px;
+}
+
+.nav-link {
+    display: flex;
+    height: 30px;
+    padding: 0 5px;
+}
+
+
