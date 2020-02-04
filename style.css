@@ -1,3 +1,60 @@
+   /* .navbar 1st */
+.nav1-container {
+    background-color: #f72210;
+    color: white;
+}
+
+.nav1-left {
+    font: 16px/34px "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+}
+
+.news-week-logo {
+    width: 440px;
+    height: 100px;
+}
+
+.button-sing-in {
+    color: white;
+    text-decoration: none;
+    font-size: 18px "Roboto Condensed",sans-serif;
+    padding-bottom: 16px;
+}
+
+.button-sing-in:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.button-subscribe {
+    background-color: white;
+    border-radius: 0;
+    color: #f72210;
+    padding: 0 3px;
+    margin-bottom: 10px;
+}
+
+.button-subscribe:hover {
+    background-color: white;
+    color: #f72210;
+}
+
+  /* navbar 2 */
+.navbar::before{
+    width: 66px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    background-color:
+    #f72210;
+    border-left: 12px solid
+    #fff;
+    border-top: 13px solid
+    #f72210;
+}
+
 .navbar {
     white-space: nowrap;
 }
@@ -18,5 +75,6 @@
     height: 30px;
     padding: 0 5px;
 }
+
 
 
