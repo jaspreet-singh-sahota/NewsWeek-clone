@@ -1,11 +1,50 @@
-   /* .navbar 1st ----------------------------*/
+ body {
+     font-size : 16px;
+     font-family: "Roboto Condensed",sans-serif;
+ }
+
+ .block-title {
+    margin: 10px 0;
+ }
+
+ .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 10px;
+}
+
+p {
+    margin: 0
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #f72210;
+    text-decoration: none;
+}
+
+a h6 {
+    font-size: 19px;
+}
+
+
+.clearfix {
+    margin: 13px 0;
+    padding-bottom: 13px;
+}
+ 
+ /* .navbar 1st ----------------------------*/
 .nav1-container {
     background-color: #f72210;
     color: white;
 }
 
 .nav1-left {
-    font: 16px/34px "Roboto Condensed",sans-serif;
+    font: 16px/34px;
     margin-bottom: 10px;
 }
 
@@ -21,7 +60,7 @@
 .button-sing-in {
     color: white;
     text-decoration: none;
-    font-size: 18px "Roboto Condensed",sans-serif;
+    font-size: 18px;
     padding-bottom: 16px;
 }
 
@@ -69,8 +108,7 @@
 
 .ul-nav {
     flex-wrap: nowrap;
-    font-size: 21px;
-    font-family: "Roboto Condensed",sans-serif;
+    font-size: 21px;;
 }
 
 .search-input{
@@ -84,15 +122,35 @@
     padding: 0 5px;
 }
 
+ /* opinion container   */
+
+ .featured {
+     margin-right: 15px;
+ }
+
+.img-lastest-news {
+    width: 100%;
+}
+
+.pic-on {
+    bottom: 25px;
+    color: #f72210;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,0.9);
+    position: relative;
+    z-index: 1;
+}
+
 
  /* media queries */
 
- @media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
      .search-icon {
          display: none;
      }
 
- }
+}
 
 
 
