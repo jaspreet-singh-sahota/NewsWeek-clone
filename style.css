@@ -125,6 +125,10 @@ a h6 {
 
  /* opinion container   */
 
+.opinion-container {
+    padding-bottom: 17px;
+}
+
  .featured {
      margin-right: 15px;
  }
@@ -134,7 +138,7 @@ a h6 {
 }
 
 .pic-on {
-    bottom: 25px;
+    bottom: 30px;
     color: #f72210;
     text-transform: uppercase;
     padding: 8px 15px 9px;
@@ -240,8 +244,134 @@ a h6 {
  }
 
  .bottom-feature {
-    padding-top: 800px;
+    padding-top: 817px;
  }
+
+ /* ---------------------------section - flexbox container---------------------------------  */
+/* main container */
+
+.section-container {
+    margin-top: 15px;
+}
+
+/* IN THE MAGAZINE */
+
+ .newsweek-icon {
+     height: 30px;
+     width: auto;
+ }
+
+ .in-the-magazine-border {
+     padding: 10px 0;
+ }
+
+/* advertisement */
+
+.advertisement-contaer {
+    margin-top: 40px;
+}
+
+ .see-all-features {
+     text-align: center;
+     font-size: 18px;
+     margin-top: -25px;
+     padding: 10px 0;
+ }
+
+ .see-all-features:hover {
+     background-color: #c2d4d7;
+     color: black;
+ }
+
+ /* 3 column grid items */
+
+ .grid-item-in-the-magazine {
+     margin-top: 15px;
+ }
+
+ .in-magazine-img {
+     height: 280px;
+     width: auto;
+ }
+
+ .red-background {
+     background-color:#f72210;
+     color: #fff;
+     padding: 3px 5px;
+     margin-right: 10px;
+ }
+
+ .category {
+     padding: 10px 10px 10px 0;
+ }
+
+ .text-underline {
+     font-size: 20px;
+     line-height: 23px;
+ }
+
+a .text-underline:hover {
+    text-decoration: underline red;
+    color: black;
+ }
+
+/* EDITOR'S PICK---------------- */
+
+.editors-pick {
+    margin-top: 30px;
+}
+
+.editors-pick-border-bottom {
+    padding-bottom: 15px;
+}
+
+.editors-img-comtainer {
+    padding-top: 15px;
+}
+
+a .article-info:hover {
+    text-decoration: underline red;
+}
+
+/* featured slideshow */
+
+.pick-on-img-multi-file {
+    height: 50px;
+    width: 60px;
+    position: relative;
+    bottom: 50px;
+    opacity: 0.7;
+}
+
+.slide-text-padding {
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+/* picks us  */
+
+.part-picks {
+    font-size: 22px;
+    color: #f72210;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.text-underline-hover {
+    padding: 10px 0;
+    line-height: 24px;
+    font-size: 22px;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline red;
+    color: black;
+}
+
+.border-padding-sidebar {
+    padding-bottom: 13px;
+}
 
  /* media queries */
 
