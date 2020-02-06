@@ -373,6 +373,42 @@ a .article-info:hover {
     padding-bottom: 13px;
 }
 
+  /* ----------------subscribe --------------------*/
+
+.overlap {
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+
+.subscribe-card {
+    background-color: #f4f5f6;
+    padding: 20px 10px 30px 20px;
+}
+
+.button-subscribed {
+    margin-top: 25px;
+    background-color: #f72210;
+    border-radius: 0;
+}
+
+.subscribe-info {
+    padding-top: 35px;
+    margin-left: -5px;
+}
+
+.sing-in-img {
+    height: 280px;
+    width: 100%;
+}
+
+.sing-in-text {
+    padding-top: 45px;
+}
+
+.subscribe-title {
+    font-size: 18px;
+}
  /* media queries */
 
 @media screen and (max-width: 1100px) {
