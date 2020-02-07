@@ -405,7 +405,7 @@ a .article-info:hover {
 }
 
 .sing-in-text {
-    padding-top: 45px;
+    padding-top: 55px;
 }
 
 .subscribe-title {
@@ -417,6 +417,63 @@ a .article-info:hover {
     padding: 0;
     margin: -30px;
 }
+
+/* ----------------- footer ----------------------/- */
+
+
+.logo-footer {
+    margin-top: 70px;
+}
+
+.logo-footer a {
+    color: #f72210;
+    font-size: 42px;
+
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+.media-icons {
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.social-media{
+    margin-right: 10px;
+}
+
+.footer-ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #777;
+}
+
+.footer-ul li a:hover {
+    color: black;
+}
+
+.footer-editions-container {
+    margin-top: 10px;
+}
+
+.more-footer-links {
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+footer {
+    padding-left: 35px;
+}
+
+
+
  /* media queries */
 
 @media screen and (max-width: 1100px) {
