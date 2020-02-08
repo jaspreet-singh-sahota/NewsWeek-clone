@@ -1,4 +1,6 @@
  body {
+     padding: 0;
+     margin: 0;
      font-size : 16px;
      font-family: "Roboto Condensed",sans-serif;
  }
@@ -8,12 +10,12 @@
     padding-top: 10px;
  }
 
- .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+ /* .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
     position: relative;
     width: 100%;
     padding-right: 12px;
     padding-left: 10px;
-}
+} */
 
 p {
     margin: 0
@@ -45,13 +47,14 @@ a h6 {
 }
 
 .nav1-left {
-    font: 16px/34px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
 .news-week-logo {
     width: 440px;
     height: 100px;
+    padding-left: 20px;
 }
 
 .img-text-center {
@@ -114,14 +117,16 @@ a h6 {
 
 .search-input{
     border-color: transparent;
-    width: 90px;
+    width: 85.2px;
 }
 
 .nav-link {
     display: flex;
     height: 30px;
     padding: 0 5px;
+    font-size: 20px;
 }
+
 
  /* opinion container   */
 
@@ -129,7 +134,37 @@ a h6 {
     padding-bottom: 17px;
 }
 
- .featured {
+.side-img {
+    width: 135px;
+    height: auto;
+}
+
+.opinion-img-padding {
+    padding: 0 10px 10px 15px;
+}
+
+.right-side-container-img {
+    padding: 0 10px 0 15px;
+}
+.right-side-container-text-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.opinion-text-padding-right {
+    padding-right: 10px;
+}
+
+.clearfix-latest-news {
+   padding-top: 10px;
+    padding-right: 10px;
+}
+
+.latest-news-container {
+    padding-right: 15px;
+}
+
+ .featured-container {
      margin-right: 15px;
  }
 
@@ -145,6 +180,7 @@ a h6 {
     background-color: rgba(255,255,255,0.9);
     position: relative;
     z-index: 1;
+    white-space: nowrap;
 }
 
 .opinion {
@@ -178,6 +214,7 @@ a h6 {
 
 .summary {
     padding-bottom: 15px;
+    line-height: 18px;
 }
 /* culture-and-travel -------------------- */
 
@@ -185,6 +222,10 @@ a h6 {
     font-size: 20px;
     color: #272727;
     margin: 10px 0;
+}
+
+.culture-and-travel-background{
+    background-color: #f4f5f7;
 }
 
 .summary-culture-and-travel {
@@ -216,6 +257,15 @@ a h6 {
     padding-bottom: 10px;
 }
 
+.more-stories-text-padding{
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}
+
 .border-padding {
     padding: 3px 0 0 0;
 }
@@ -229,7 +279,6 @@ a h6 {
 
  .feature-container {
      padding-left: 30px;
-     margin-right: -15px;
      height: 2926px;
  }
 
@@ -290,8 +339,7 @@ a h6 {
  }
 
  .in-magazine-img {
-     height: 280px;
-     width: auto;
+
  }
 
  .red-background {
@@ -348,6 +396,10 @@ a .article-info:hover {
     font-size: 24px;
 }
 
+.SLIDESHOWS {
+    padding-bottom: 10px;
+}
+
 /* picks us  */
 
 .part-picks {
@@ -383,7 +435,9 @@ a .article-info:hover {
 
 .subscribe-card {
     background-color: #f4f5f6;
+    box-sizing: border-box;
     padding: 20px 10px 30px 20px;
+    margin-bottom: 15px;
 }
 
 .button-subscribed {
@@ -401,7 +455,6 @@ a .article-info:hover {
     height: 280px;
     width: 100%;
     padding-left: 0px;
-    margin-left: -5px;
 }
 
 .sing-in-text {
@@ -472,7 +525,10 @@ footer {
     padding-left: 35px;
 }
 
+.nav2-links li a:hover {
+    color:#f72210 !important;
 
+}
 
  /* media queries */
 
@@ -492,17 +548,50 @@ footer {
     .ul-nav {
         width: 880px;
     }
+    .button-sing-in {
+        padding-right: 50px;
+    }
+    .nav-li-last {
+        visibility: hidden;
+    }
+    .form-control {
+        margin-left: -35px;
+    }
      
  }
 
- @media screen and (max-width: 990px) {
-         .nav1-container{
+ @media screen and (max-width: 992px) {
+    .nav1-container{
         height: 50px;
-        display: grid;
+        justify-content: space-between;
+
+    }
+    .pic-resize {
+        width: 100%;
+    }
+    .feature-container{
+        margin-left: -15px;
+    }
+    .top-stories-container {
+        padding-right: 0;
+    }
+    .opinion-container {
+        padding-right: 0;
+    }
+    .picks {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .slideshow-editor-padding {
+        margin: 0 -15px;
+    }
+    .editors-pick-border-bottom {
+        padding-top: 50px;
     }
     .nav1-newsweek-logo {
         order: -1;
         text-align: left;
+        margin-left: -40px;
     }
     .news-week-logo {
         height: 50px;
@@ -513,23 +602,83 @@ footer {
     }
     .button-sing-in {
         margin: auto 0;
-        width: 100px;
+        width: 68px;
         padding: 0;
         margin-bottom: 12px;
     }
     .button-subscribe{
-        height: 25px;      
+        height: 30px;      
         margin-bottom: 12px;
-        margin-right: 7px;
     }
     .nav1-right {
         display: flex;
         flex-wrap: nowrap;
         white-space: nowrap;
+        justify-content: flex-end;
     }
     .menu{
+        width: 100px;
         display: inline-block;
-        font-size: 27px;
+        font-size: 30px;
         color:#fb9a94;
+        margin: 0 10px;
     }
  }
+ 
+ @media screen and (max-width: 767px) {
+     .top-stories-container {
+         padding-right: 15px;
+     }
+     .resizing-img-550px {
+         width: 100%;
+     }
+     .visibility-hidden {
+         visibility: visible;
+     }
+     .sticky-top-left-side {
+         position: static;
+     }
+     .bottom-feature {
+    padding-top: 10px;
+    } 
+    .feature-container {
+        padding-right: 0;
+    }
+    .advertisement-contaer {
+        visibility: collapse;
+    }
+    .in-magazine-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+ }
+
+ @media screen and (max-width: 550px) {
+    .button-subscribe{
+        font-size: 14px;
+    }
+    .button-sing-in {
+        width: 50px;
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .menu {
+        font-size: 25px;
+        margin: 3px 0 0 3px;
+        height: 25px;
+    }
+    .collapse {
+        visibility: hidden;
+    }
+    .news-week-logo {
+        height: 34px;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+ } 
+
+
+
