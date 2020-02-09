@@ -1,750 +1,757 @@
- body {
-     padding: 0;
-     margin: 0;
-     font-size : 16px;
-     font-family: "Roboto Condensed",sans-serif;
- }
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+}
 
- .block-title {
-    margin: 10px 0;
-    padding-top: 10px;
- }
-
- /* .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-    position: relative;
-    width: 100%;
-    padding-right: 12px;
-    padding-left: 10px;
-} */
+.block-title {
+  margin: 10px 0;
+  padding-top: 10px;
+}
 
 p {
-    margin: 0
+  margin: 0;
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 a:hover {
-    color: #f72210;
-    text-decoration: none;
+  color: #f72210;
+  text-decoration: none;
 }
 
 a h6 {
-    font-size: 17px;
+  font-size: 17px;
 }
-
 
 .clearfix {
-    margin: 13px 0;
-    padding-bottom: 13px;
+  margin: 13px 0;
+  padding-bottom: 13px;
 }
- 
- /* .navbar 1st ----------------------------*/
+
+/* .navbar 1st ---------------------------- */
 .nav1-container {
-    background-color: #f72210;
-    color: white;
+  background-color: #f72210;
+  color: white;
 }
 
 .nav1-left {
-    font-size: 16px;
-    margin-bottom: 15px;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .news-week-logo {
-    width: 440px;
-    height: 100px;
-    padding-left: 20px;
+  width: 440px;
+  height: 100px;
+  padding-left: 20px;
 }
 
 .img-text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .button-sing-in {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding-bottom: 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-bottom: 16px;
 }
 
 .button-sing-in:hover {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .button-subscribe {
-    background-color: white;
-    border-radius: 0;
-    color: #f72210;
-    padding: 0 3px;
-    margin-bottom: 10px;
+  background-color: white;
+  border-radius: 0;
+  color: #f72210;
+  padding: 0 3px;
+  margin-bottom: 10px;
 }
 
 .button-subscribe:hover {
-    background-color: white;
-    color: #f72210;
+  background-color: white;
+  color: #f72210;
 }
 
 .menu {
-    display: none;
+  display: none;
 }
 
-  /* navbar 2 ---------------------------*/
-.navbar::before{
-    width: 80px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    content: "";
-    display: block;
-    background-color:
-    #f72210;
-    border-left: 12px solid
+/* navbar 2 --------------------------- */
+.navbar::before {
+  width: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  background-color: #f72210;
+  border-left:
+    12px solid
     #fff;
-    border-top: 13px solid
+  border-top:
+    13px solid
     #f72210;
 }
 
 .navbar {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .ul-nav {
-    flex-wrap: nowrap;
-    font-size: 21px;;
+  flex-wrap: nowrap;
+  font-size: 21px;
 }
 
-.search-input{
-    border-color: transparent;
-    width: 85.2px;
+.search-input {
+  border-color: transparent;
+  width: 85.2px;
 }
 
 .nav-link {
-    display: flex;
-    height: 30px;
-    padding: 0 5px;
-    font-size: 20px;
+  display: flex;
+  height: 30px;
+  padding: 0 5px;
+  font-size: 20px;
 }
 
-
- /* opinion container   */
+/* opinion container   */
 
 .opinion-container {
-    padding-bottom: 17px;
+  padding-bottom: 17px;
 }
 
 .side-img {
-    width: 135px;
-    height: auto;
+  width: 135px;
+  height: auto;
 }
 
 .opinion-img-padding {
-    padding: 0 10px 10px 15px;
+  padding: 0 10px 10px 15px;
 }
 
 .right-side-container-img {
-    padding: 0 10px 0 15px;
+  padding: 0 10px 0 15px;
 }
-.right-side-container-text-padding{
-    padding-left: 15px;
-    padding-right: 15px;
+
+.right-side-container-text-padding {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .opinion-text-padding-right {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .clearfix-latest-news {
-   padding-top: 10px;
-    padding-right: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
 }
 
 .latest-news-container {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
- .featured-container {
-     margin-right: 15px;
- }
+.featured-container {
+  margin-right: 15px;
+}
 
 .img-lastest-news {
-    width: 100%;
+  width: 100%;
 }
 
 .pic-on {
-    bottom: 30px;
-    color: #f72210;
-    text-transform: uppercase;
-    padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,0.9);
-    position: relative;
-    z-index: 1;
-    white-space: nowrap;
+  bottom: 30px;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
 }
 
 .opinion {
-    padding : 10px 0;
+  padding: 10px 0;
 }
 
 .opinion-first-iteam {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .opinion-last-item {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .info {
-    margin-left: -10px;
-    line-height: 19px;
+  margin-left: -10px;
+  line-height: 19px;
 }
-
 
 /* ----------------top stories ------------------- */
 
 .top-stories-img {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .top-stories-h3 {
-    margin-top: -15px;
-    font-size: 22px;
+  margin-top: -15px;
+  font-size: 22px;
 }
 
 .summary {
-    padding-bottom: 15px;
-    line-height: 18px;
+  padding-bottom: 15px;
+  line-height: 18px;
 }
+
 /* culture-and-travel -------------------- */
 
 .culture-and-travel-h3 {
-    font-size: 20px;
-    color: #272727;
-    margin: 10px 0;
+  font-size: 20px;
+  color: #272727;
+  margin: 10px 0;
 }
 
-.culture-and-travel-background{
-    background-color: #f4f5f7;
+.culture-and-travel-background {
+  background-color: #f4f5f7;
 }
 
 .summary-culture-and-travel {
-    font-size: 15px;
-    color: rgba(39,39,39,0.5);
+  font-size: 15px;
+  color: rgba(39, 39, 39, 0.5);
 }
 
-
 .button-culture {
-    background-color: #c2d4d7;
-    color: #272727;
-    height: 22px;
-    border-radius: 0;
-    font-size: 13px;
-    padding-top: 0;
+  background-color: #c2d4d7;
+  color: #272727;
+  height: 22px;
+  border-radius: 0;
+  font-size: 13px;
+  padding-top: 0;
 }
 
 .button-culture:hover {
-    background-color: #272727;
+  background-color: #272727;
 }
 
 .related {
-    padding: 10px 0 25px 0;
+  padding: 10px 0 25px 0;
 }
 
- /* more stories & sticky container  */
+/* more stories & sticky container  */
 
 .more-stories {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
-.more-stories-text-padding{
-    padding-right: 10px;
-    margin-bottom: 10px;
+.more-stories-text-padding {
+  padding-right: 10px;
+  margin-bottom: 10px;
 }
 
 .visibility-hidden {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .border-padding {
-    padding: 3px 0 0 0;
+  padding: 3px 0 0 0;
 }
 
 .sticky-img {
-    width: 157px;
+  width: 157px;
 }
 
+/* feature container  */
 
- /* feature container  */
+.feature-container {
+  padding-left: 30px;
+  height: 2926px;
+}
 
- .feature-container {
-     padding-left: 30px;
-     height: 2926px;
- }
+.article-info {
+  color: black;
+  font-size: 24px;
+  margin-top: -15px;
+}
 
- .article-info {
-     color: black;
-     font-size: 24px;
-     margin-top: -15px;
- }
+.summary-feature {
+  padding-bottom: 20px;
+}
 
- .summary-feature {
-     padding-bottom: 20px;
- }
+.bottom-feature {
+  padding-top: 817px;
+}
 
- .bottom-feature {
-    padding-top: 817px;
- }
+/* ---------------------------section - flexbox container---------------------------------  */
 
- /* ---------------------------section - flexbox container---------------------------------  */
 /* main container */
 
 .section-container {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 /* IN THE MAGAZINE */
 
- .newsweek-icon {
-     height: 30px;
-     width: auto;
- }
+.newsweek-icon {
+  height: 30px;
+  width: auto;
+}
 
- .in-the-magazine-border {
-     padding: 10px 0;
- }
+.in-the-magazine-border {
+  padding: 10px 0;
+}
 
 /* advertisement */
 
 .advertisement-contaer {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
- .see-all-features {
-     text-align: center;
-     font-size: 18px;
-     margin-top: -25px;
-     padding: 10px 0;
- }
+.see-all-features {
+  text-align: center;
+  font-size: 18px;
+  margin-top: -25px;
+  padding: 10px 0;
+}
 
- .see-all-features:hover {
-     background-color: #c2d4d7;
-     color: black;
- }
+.see-all-features:hover {
+  background-color: #c2d4d7;
+  color: black;
+}
 
- /* 3 column grid items */
+/* 3 column grid items */
 
- .grid-item-in-the-magazine {
-     margin-top: 15px;
- }
+.grid-item-in-the-magazine {
+  margin-top: 15px;
+}
 
- .in-magazine-img {
+.red-background {
+  background-color: #f72210;
+  color: #fff;
+  padding: 3px 5px;
+  margin-right: 10px;
+}
 
- }
+.category {
+  padding: 10px 10px 10px 0;
+}
 
- .red-background {
-     background-color:#f72210;
-     color: #fff;
-     padding: 3px 5px;
-     margin-right: 10px;
- }
-
- .category {
-     padding: 10px 10px 10px 0;
- }
-
- .text-underline {
-     font-size: 20px;
-     line-height: 23px;
- }
+.text-underline {
+  font-size: 20px;
+  line-height: 23px;
+}
 
 a .text-underline:hover {
-    text-decoration: underline red;
-    color: black;
- }
+  text-decoration: underline red;
+  color: black;
+}
 
 /* EDITOR'S PICK---------------- */
 
 .editors-pick {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .editors-pick-border-bottom {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .editors-img-comtainer {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 a .article-info:hover {
-    text-decoration: underline red;
+  text-decoration: underline red;
 }
 
 /* featured slideshow */
 
 .pick-on-img-multi-file {
-    height: 50px;
-    width: 60px;
-    position: relative;
-    bottom: 50px;
-    opacity: 0.7;
+  height: 50px;
+  width: 60px;
+  position: relative;
+  bottom: 50px;
+  opacity: 0.7;
 }
 
 .slide-text-padding {
-    padding: 15px 0;
-    font-size: 24px;
+  padding: 15px 0;
+  font-size: 24px;
 }
 
 .SLIDESHOWS {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 /* picks us  */
 
 .part-picks {
-    font-size: 22px;
-    color: #f72210;
-    text-transform: uppercase;
-    font-weight: bolder;
-    margin: 10px 0;
+  font-size: 22px;
+  color: #f72210;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 10px 0;
 }
 
 .text-underline-hover {
-    padding: 10px 0;
-    line-height: 24px;
-    font-size: 22px;
+  padding: 10px 0;
+  line-height: 24px;
+  font-size: 22px;
 }
 
 .text-underline-hover:hover {
-    text-decoration: underline red;
-    color: black;
+  text-decoration: underline red;
+  color: black;
 }
 
 .border-padding-sidebar {
-    padding-bottom: 13px;
+  padding-bottom: 13px;
 }
 
-  /* ----------------subscribe --------------------*/
+/* ----------------subscribe -------------------- */
 
 .overlap {
-    position: relative;
-    margin-left: -90px;
-    top: 20px;
-    padding-right: 15px;
+  position: relative;
+  margin-left: -90px;
+  top: 20px;
+  padding-right: 15px;
 }
+
 .sing-in-card {
-    padding-left: 55px;
+  padding-left: 55px;
 }
 
 .subscribe-card {
-    background-color: #f4f5f6;
-    box-sizing: border-box;
-    padding: 20px 10px 35px 20px;
-    margin-bottom: 15px;
-    margin-left: 15px;
+  background-color: #f4f5f6;
+  box-sizing: border-box;
+  padding: 20px 10px 35px 20px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 .subscribe-container {
-    width: 640px;
+  width: 640px;
 }
 
 .button-subscribed {
-    margin-top: 25px;
-    background-color: #f72210;
-    border-radius: 0;
+  margin-top: 25px;
+  background-color: #f72210;
+  border-radius: 0;
 }
 
 .subscribe-info {
-    padding-top: 35px;
-    margin-right: -80px;
-
+  padding-top: 35px;
+  margin-right: -80px;
 }
 
 .sing-in-img {
-    height: 280px;
-    width: 100%;
-    padding-left: 0px;
+  height: 280px;
+  width: 100%;
+  padding-left: 0;
 }
 
 .sing-in-text {
-    padding-top: 55px;
+  padding-top: 55px;
 }
 
 .subscribe-title {
-    font-size: 18px;
-    padding-top: 25px;
+  font-size: 18px;
+  padding-top: 25px;
 }
-
 
 /* ----------------- footer ----------------------/- */
 
-
 .logo-footer {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .logo-footer a {
-    color: #f72210;
-    font-size: 42px;
-
+  color: #f72210;
+  font-size: 42px;
 }
 
 .copyright {
-    font-size: 12px;
-    line-height: 12px;
-    text-transform: uppercase;
-    color: #666;
-    margin-bottom: 12px;
-    padding-left: 10px;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+  padding-left: 10px;
 }
 
 .media-icons {
-    font-size: 27px;
-    margin-top: 80px;
-    padding-right: 20px;
-    white-space: nowrap;
+  font-size: 27px;
+  margin-top: 80px;
+  padding-right: 20px;
+  white-space: nowrap;
 }
 
-.social-media{
-    margin-right: 10px;
+.social-media {
+  margin-right: 10px;
 }
 
 .footer-ul li a {
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #777;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #777;
 }
 
-.footer-container{
-    margin-right: 45px;
+.footer-container {
+  margin-right: 45px;
 }
 
 .footer-ul li a:hover {
-    color: black;
+  color: black;
 }
 
 .footer-editions-container {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .more-footer-links {
-    margin-bottom: 40px;
-    line-height: 30px;
+  margin-bottom: 40px;
+  line-height: 30px;
 }
 
 footer {
-    padding-left: 35px;
+  padding-left: 35px;
 }
 
 .nav2-links li a:hover {
-    color:#f72210 !important;
-
+  color: #f72210 !important;
 }
 
- /* media queries */
+/* media queries */
 
 @media screen and (max-width: 1100px) {
-     .search-icon {
-         display: none;
-     }
-
+  .search-icon {
+    display: none;
+  }
 }
 
+@media screen and (max-width: 1050px) {
+  .navbar::before {
+    display: none;
+  }
 
+  .ul-nav {
+    width: 880px;
+  }
 
- @media screen and (max-width: 1050px) {
-    .navbar::before{
-        display: none;
-    }
-    .ul-nav {
-        width: 880px;
-    }
-    .button-sing-in {
-        padding-right: 50px;
-    }
-    .nav-li-last {
-        visibility: hidden;
-    }
-    .form-control {
-        margin-left: -35px;
-    }
-     
- }
+  .button-sing-in {
+    padding-right: 50px;
+  }
 
- @media screen and (max-width: 992px) {
-    .nav1-container{
-        height: 50px;
-        justify-content: space-between;
+  .nav-li-last {
+    visibility: hidden;
+  }
 
-    }
-    .sing-in-card {
-        padding-left: 0;
-    }
-    .subscribe-card {
+  .form-control {
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav1-container {
+    height: 50px;
+    justify-content: space-between;
+  }
+
+  .sing-in-card {
+    padding-left: 0;
+  }
+
+  .subscribe-card {
     margin-left: 0;
-    }
-    .pic-resize {
-        width: 100%;
-    }
-    .feature-container{
-        margin-left: -15px;
-    }
-    .top-stories-container {
-        padding-right: 0;
-    }
-    .opinion-container {
-        padding-right: 0;
-    }
-    .picks {
-        margin-left: -15px;
-        margin-right: -15px;
-    }
-    .slideshow-editor-padding {
-        margin: 0 -15px;
-    }
-    .editors-pick-border-bottom {
-        padding-top: 50px;
-    }
-    .nav1-newsweek-logo {
-        order: -1;
-        text-align: left;
-        margin-left: -40px;
-    }
-    .news-week-logo {
-        height: 50px;
-        width: 200px;
-    }
-    .text-left {
-        display: none;
-    }
-    .button-sing-in {
-        margin: auto 0;
-        width: 68px;
-        padding: 0;
-        margin-bottom: 12px;
-    }
-    .button-subscribe{
-        height: 30px;      
-        margin-bottom: 12px;
-    }
-    .nav1-right {
-        display: flex;
-        flex-wrap: nowrap;
-        white-space: nowrap;
-        justify-content: flex-end;
-    }
-    .menu{
-        width: 100px;
-        display: inline-block;
-        font-size: 30px;
-        color:#fb9a94;
-        margin: 0 10px;
-    }
-    .editions-padding {
-        padding-right: 65px;
-    }
- }
- 
- @media screen and (max-width: 767px) {
-     .top-stories-container {
-         padding-right: 15px;
-     }
-     .media-icons {
-         margin-top: 1px;
-     }
-     .resizing-img-550px {
-         width: 100%;
-     }
-     .visibility-hidden {
-         visibility: visible;
-     }
-     .sticky-top-left-side {
-         position: static;
-     }
-     .bottom-feature {
+  }
+
+  .pic-resize {
+    width: 100%;
+  }
+
+  .feature-container {
+    margin-left: -15px;
+  }
+
+  .top-stories-container {
+    padding-right: 0;
+  }
+
+  .opinion-container {
+    padding-right: 0;
+  }
+
+  .picks {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .slideshow-editor-padding {
+    margin: 0 -15px;
+  }
+
+  .editors-pick-border-bottom {
+    padding-top: 50px;
+  }
+
+  .nav1-newsweek-logo {
+    order: -1;
+    text-align: left;
+    margin-left: -40px;
+  }
+
+  .news-week-logo {
+    height: 50px;
+    width: 200px;
+  }
+
+  .text-left {
+    display: none;
+  }
+
+  .button-sing-in {
+    margin: auto 0;
+    width: 68px;
+    padding: 0;
+    margin-bottom: 12px;
+  }
+
+  .button-subscribe {
+    height: 30px;
+    margin-bottom: 12px;
+  }
+
+  .nav1-right {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    justify-content: flex-end;
+  }
+
+  .menu {
+    width: 100px;
+    display: inline-block;
+    font-size: 30px;
+    color: #fb9a94;
+    margin: 0 10px;
+  }
+
+  .editions-padding {
+    padding-right: 65px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-stories-container {
+    padding-right: 15px;
+  }
+
+  .media-icons {
+    margin-top: 1px;
+  }
+
+  .resizing-img-550px {
+    width: 100%;
+  }
+
+  .visibility-hidden {
+    visibility: visible;
+  }
+
+  .sticky-top-left-side {
+    position: static;
+  }
+
+  .bottom-feature {
     padding-top: 10px;
-    } 
-    .feature-container {
-        padding-right: 0;
-        height: auto;
-    }
-    .advertisement-contaer {
-        visibility: collapse;
-    }
-    .in-magazine-container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    
+  }
 
- }
+  .feature-container {
+    padding-right: 0;
+    height: auto;
+  }
 
- @media screen and (max-width: 550px) {
-    .button-subscribe{
-        font-size: 14px;
-    }
-    .button-sing-in {
-        width: 50px;
-        font-size: 14px;
-        margin-bottom: 15px;
-        margin-right: 0;
-    }
-    .menu {
-        font-size: 25px;
-        margin: 3px 0 0 3px;
-        height: 25px;
-    }
-    .collapse {
-        visibility: collapse;
-    }
-    .news-week-logo {
-        height: 34px;
-        width: auto;
-        margin-bottom: 10px;
-    }
+  .advertisement-contaer {
+    visibility: collapse;
+  }
 
- } 
-
-@media screen and (max-width:1279px) {
-    .subscribe-flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .subscribe-title {
-        visibility: hidden;
-    }
+  .in-magazine-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
+@media screen and (max-width: 550px) {
+  .button-subscribe {
+    font-size: 14px;
+  }
 
-@media screen and (max-width:839px) {
-    .subscribe-container {
-        justify-self: flex-start;
-        width: auto;
-    }
-    .subscribe-info {
-        margin-right: 0;
-        padding-top: 260px;
-        text-align: center;
-    }
-    
+  .button-sing-in {
+    width: 50px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  .menu {
+    font-size: 25px;
+    margin: 3px 0 0 3px;
+    height: 25px;
+  }
+
+  .collapse {
+    visibility: collapse;
+  }
+
+  .news-week-logo {
+    height: 34px;
+    width: auto;
+    margin-bottom: 10px;
+  }
 }
 
-@media screen and (max-width:439px) {
-     
-    .sing-in-card {
-        width: 265px;
-        text-align: center;
-    }
+@media screen and (max-width: 1279px) {
+  .subscribe-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .subscribe-card {
-        margin-left: -15px;
-    }
-    .nav1-right {
-        padding-left: 0px;
-        padding-right: 10px;
-    }
+  .subscribe-title {
+    visibility: hidden;
+  }
 }
 
+@media screen and (max-width: 839px) {
+  .subscribe-container {
+    justify-self: flex-start;
+    width: auto;
+  }
 
+  .subscribe-info {
+    margin-right: 0;
+    padding-top: 260px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .sing-in-card {
+    width: 265px;
+    text-align: center;
+  }
+
+  .subscribe-card {
+    margin-left: -15px;
+  }
+
+  .nav1-right {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+}
