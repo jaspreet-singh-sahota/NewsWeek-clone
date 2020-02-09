@@ -47,7 +47,7 @@ at the left side.
 
 ## Live Demo
 
-
+https://raw.githack.com/jaspreet-singh-sahota/NewsWeek-clone/feature-branch/index.html
 
 ## Authors
 
