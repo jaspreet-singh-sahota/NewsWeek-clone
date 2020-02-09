@@ -428,16 +428,25 @@ a .article-info:hover {
   /* ----------------subscribe --------------------*/
 
 .overlap {
-    position: absolute;
-    right: 100px;
+    position: relative;
+    margin-left: -90px;
     top: 20px;
+    padding-right: 15px;
+}
+.sing-in-card {
+    padding-left: 55px;
 }
 
 .subscribe-card {
     background-color: #f4f5f6;
     box-sizing: border-box;
-    padding: 20px 10px 30px 20px;
+    padding: 20px 10px 35px 20px;
     margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.subscribe-container {
+    width: 640px;
 }
 
 .button-subscribed {
@@ -448,7 +457,8 @@ a .article-info:hover {
 
 .subscribe-info {
     padding-top: 35px;
-    margin-left: -30px;
+    margin-right: -80px;
+
 }
 
 .sing-in-img {
@@ -466,10 +476,6 @@ a .article-info:hover {
     padding-top: 25px;
 }
 
-.white-gap-subscribe{
-    padding: 0;
-    margin: -30px;
-}
 
 /* ----------------- footer ----------------------/- */
 
@@ -494,8 +500,10 @@ a .article-info:hover {
 }
 
 .media-icons {
-    font-size: 30px;
-    margin-top: 70px;
+    font-size: 27px;
+    margin-top: 80px;
+    padding-right: 20px;
+    white-space: nowrap;
 }
 
 .social-media{
@@ -506,6 +514,10 @@ a .article-info:hover {
     padding-left: 10px;
     padding-right: 10px;
     color: #777;
+}
+
+.footer-container{
+    margin-right: 45px;
 }
 
 .footer-ul li a:hover {
@@ -566,6 +578,12 @@ footer {
         justify-content: space-between;
 
     }
+    .sing-in-card {
+        padding-left: 0;
+    }
+    .subscribe-card {
+    margin-left: 0;
+    }
     .pic-resize {
         width: 100%;
     }
@@ -623,11 +641,17 @@ footer {
         color:#fb9a94;
         margin: 0 10px;
     }
+    .editions-padding {
+        padding-right: 65px;
+    }
  }
  
  @media screen and (max-width: 767px) {
      .top-stories-container {
          padding-right: 15px;
+     }
+     .media-icons {
+         margin-top: 1px;
      }
      .resizing-img-550px {
          width: 100%;
@@ -643,6 +667,7 @@ footer {
     } 
     .feature-container {
         padding-right: 0;
+        height: auto;
     }
     .advertisement-contaer {
         visibility: collapse;
@@ -651,6 +676,7 @@ footer {
         padding-left: 0;
         padding-right: 0;
     }
+    
 
  }
 
@@ -670,7 +696,7 @@ footer {
         height: 25px;
     }
     .collapse {
-        visibility: hidden;
+        visibility: collapse;
     }
     .news-week-logo {
         height: 34px;
@@ -680,5 +706,45 @@ footer {
 
  } 
 
+@media screen and (max-width:1279px) {
+    .subscribe-flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .subscribe-title {
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width:839px) {
+    .subscribe-container {
+        justify-self: flex-start;
+        width: auto;
+    }
+    .subscribe-info {
+        margin-right: 0;
+        padding-top: 260px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:439px) {
+     
+    .sing-in-card {
+        width: 265px;
+        text-align: center;
+    }
+
+    .subscribe-card {
+        margin-left: -15px;
+    }
+    .nav1-right {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+}
 
 
