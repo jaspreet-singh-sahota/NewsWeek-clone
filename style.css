@@ -255,9 +255,9 @@ a h6 {
   width: 40%;
 }
 
-.visibility-hidden {
+/* .visibility-hidden {
   visibility: hidden;
-}
+} */
 
 .border-padding {
   padding: 3px 0 0 0;
@@ -271,7 +271,7 @@ a h6 {
 
 .feature-container {
   padding-left: 30px;
-  height: 2926px;
+  height: auto;
 }
 
 .article-info {
@@ -545,6 +545,7 @@ footer {
 
   .newssletter {
     margin-left: -15px;
+    text-align: left;
   }
 }
 
@@ -576,14 +577,20 @@ footer {
     justify-content: space-between;
   }
 
+  .grid-container {
+    display: grid;
+  }
+
   .sing-in-card {
     padding: 20px 28px;
     margin-top: -49px;
+    text-align: center;
   }
 
   .subscribe-card {
     width: -webkit-fill-available;
     margin-right: 15px;
+    justify-content: center;
   }
 
   .pic-resize {
@@ -666,16 +673,20 @@ footer {
     text-align: center;
   }
 
+  .structure {
+    order: 0;
+  }
+
   .media-icons {
     margin-top: 1px;
   }
 
   .culture-and-travel-background {
-    order: 4;
+    order: 2;
   }
 
   .more-stories-container {
-    order: 3;
+    order: 1;
   }
 
   .resizing-img-550px {
@@ -690,6 +701,10 @@ footer {
     position: static;
   }
 
+  .opinion-container {
+    order: 2;
+  }
+
   .bottom-feature {
     padding-top: 10px;
   }
@@ -697,7 +712,7 @@ footer {
   .feature-container {
     padding-right: 0;
     height: auto;
-    order: 6;
+    order: 1;
   }
 
   .in-magazine-container {
