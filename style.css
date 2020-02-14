@@ -127,7 +127,7 @@ a h6 {
 }
 
 .side-img {
-  width: 135px;
+  width: 40%;
   height: auto;
 }
 
@@ -563,11 +563,12 @@ footer {
   }
 
   .sing-in-card {
-    padding-left: 0;
+    padding: 20px;
   }
 
   .subscribe-card {
-    margin-left: 0;
+    width: -webkit-fill-available;
+    margin-right: 15px;
   }
 
   .pic-resize {
@@ -586,13 +587,8 @@ footer {
     padding-right: 0;
   }
 
-  .picks {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-
-  .slideshow-editor-padding {
-    margin: 0 -15px;
+  .see-all-feature-img {
+    width: 100%;
   }
 
   .editors-pick-border-bottom {
@@ -676,10 +672,6 @@ footer {
     height: auto;
   }
 
-  .advertisement-contaer {
-    visibility: collapse;
-  }
-
   .in-magazine-container {
     padding-left: 0;
     padding-right: 0;
@@ -742,12 +734,11 @@ footer {
 
 @media screen and (max-width: 439px) {
   .sing-in-card {
-    width: 265px;
     text-align: center;
   }
 
   .subscribe-card {
-    margin-left: -15px;
+    margin: 5px;
   }
 
   .nav1-right {
