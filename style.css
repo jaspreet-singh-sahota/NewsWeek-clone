@@ -485,6 +485,11 @@ a .article-info:hover {
   color: #666;
   margin-bottom: 12px;
   padding-left: 10px;
+  padding-top: 97px;
+}
+
+.copyright-flex {
+  display: flex;
 }
 
 .media-icons {
@@ -669,6 +674,19 @@ footer {
     padding-right: 15px;
   }
 
+  footer {
+    padding-left: 10px;
+  }
+
+  .copyright {
+    padding-left: 0;
+    font-size: 21px;
+  }
+
+  .logo-footer a {
+    font-size: 60px;
+  }
+
   .sing-in-text {
     text-align: center;
   }
@@ -695,6 +713,10 @@ footer {
 
   .visibility-hidden {
     visibility: visible;
+  }
+
+  .copyright-flex {
+    display: block;
   }
 
   .sticky-top-left-side {
